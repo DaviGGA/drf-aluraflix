@@ -58,7 +58,7 @@ class VideosTestCase(TestCase):
         url = f'/videos/{self.video_test.id}/'
         data = {
             'title' : ' New Video Test Case',
-            'description' : 'changed using PATCH method',
+            'description' : 'Test case description',
             'url' : 'https://www.youtube.com/'
         }
         response = self.client.patch(url, data)
