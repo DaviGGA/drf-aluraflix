@@ -13,8 +13,8 @@ python manage.py runserver
 
 ## Endpoints
 
-- /videos/
-- /videos/{id}/
+- /videos/ [GET/POST]
+- /videos/{id}/ [GET/DELETE/PUT/PATCH]
 
 ## Request Example
 
