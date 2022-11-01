@@ -2,11 +2,11 @@
 
 ## Getting started
  
- - Install all required packages
+ - Install all required packages:
 ```
 pip install -r requirements.txt
 ```
-- Run in your localhost server
+- Run in your localhost server:
 ```
 python manage.py runserver
 ```
