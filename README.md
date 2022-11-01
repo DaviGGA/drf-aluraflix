@@ -13,12 +13,12 @@ python manage.py runserver
 
 ## Endpoints
 
-- /videos/ [GET/POST]
-- /videos/{id}/ [GET/DELETE/PUT/PATCH]
+- /videos/ **[GET/POST]**
+- /videos/{id}/ **[GET/DELETE/PUT/PATCH]**
 
 ## Request Example
 
-```
+```python
 [
     {
       "title": "VIDEO",
@@ -28,7 +28,7 @@ python manage.py runserver
 ]
 ```
 ## Bad Request
-```
+```python
 [
     "The video {video.title} alrealdy exist"
 ]
