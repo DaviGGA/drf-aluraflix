@@ -34,7 +34,7 @@ python manage.py runserver
     }
 ]
 ```
-## Bad Request
+### Bad Request
 ```python
 [
     "The video title alrealdy exist"
@@ -51,7 +51,7 @@ python manage.py runserver
     }
 ]
 ```
-## Bad Request
+### Bad Request
 ```python
 [
     "The category title alrealdy exist"
