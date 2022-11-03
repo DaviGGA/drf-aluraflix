@@ -23,6 +23,8 @@ python manage.py runserver
 
 ## Request Example
 
+### Video
+
 ```python
 [
     {
@@ -36,5 +38,22 @@ python manage.py runserver
 ```python
 [
     "The video title alrealdy exist"
+]
+```
+
+### Category
+
+```python
+[
+    {
+      "title": "CATEGORY",
+      "color": "#ffffff"
+    }
+]
+```
+## Bad Request
+```python
+[
+    "The category title alrealdy exist"
 ]
 ```
