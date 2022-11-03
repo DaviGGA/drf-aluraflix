@@ -15,6 +15,11 @@ python manage.py runserver
 
 - /videos/ **[GET/POST]**
 - /videos/{id}/ **[GET/DELETE/PUT/PATCH]**
+- /videos/?video_search=Cat
+- /categories/ **[GET/POST]**
+- /categories/{id} **[GET/DELETE/PUT/PATCH]**
+- /categories/{categories.id}/videos **[GET]**
+- /categories/?category_search=Documentary
 
 ## Request Example
 
@@ -30,6 +35,6 @@ python manage.py runserver
 ## Bad Request
 ```python
 [
-    "The video {video.title} alrealdy exist"
+    "The video title alrealdy exist"
 ]
 ```

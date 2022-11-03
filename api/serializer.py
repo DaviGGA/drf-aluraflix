@@ -2,7 +2,12 @@ from dataclasses import fields
 from rest_framework import serializers
 from .models import *
 
-class videosSerializer(serializers.ModelSerializer):
+class VideosSerializer(serializers.ModelSerializer):
     class Meta:
         model = Video
-        fields = ['title','description','url','id']
+        fields = '__all__'
+
+class CategorySerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Category
+        fields = '__all__'
