@@ -26,7 +26,7 @@ class CategoryViewSet(generics.RetrieveUpdateDestroyAPIView):
 class VideoCreate(generics.ListCreateAPIView):
     '''Create and List Video View'''
     serializer_class = VideosSerializer
-    # permission_classes = (IsAuthenticated,)
+    permission_classes = (IsAuthenticated,)
    
     def get_queryset(self):
         queryset = Video.objects.all()
