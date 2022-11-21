@@ -1,6 +1,8 @@
 # Django Rest Framework API
 
 ## Getting started
+
+### Run Locally
  
  - Install all required packages:
 ```
@@ -11,15 +13,18 @@ pip install -r requirements.txt
 python manage.py runserver
 ```
 
+### Access via URL
+
+- https://davigga-aluraflix.up.railway.app/
+
+### JWT Authentication
+
+- Create your account in /user/register/
+- Do a POST request in /token/ to get your token
+
 ## Endpoints
 
-- /videos/ **[GET/POST]**
-- /videos/{id}/ **[GET/DELETE/PUT/PATCH]**
-- /videos/?video_search=Cat
-- /categories/ **[GET/POST]**
-- /categories/{id} **[GET/DELETE/PUT/PATCH]**
-- /categories/{categories.id}/videos **[GET]**
-- /categories/?category_search=Documentary
+- https://davigga-aluraflix.up.railway.app/ 
 
 ## Request Example
 
