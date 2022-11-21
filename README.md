@@ -24,7 +24,17 @@ python manage.py runserver
 
 ## Endpoints
 
-- https://davigga-aluraflix.up.railway.app/ 
+- https://davigga-aluraflix.up.railway.app/
+
+### Search params
+
+- /videos/?video_search=
+- /categories/?categories_search=
+
+### Pagination
+
+- /videos/?page=
+- /categories/?page=
 
 ## Request Example
 
